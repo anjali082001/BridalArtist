@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
+
+    <title>Aditi Makeup Artist</title>
+
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container text-white">
+          <a class="navbar-brand" href="index.html">
+            <img src="logo image.jpg" alt="Bootstrap" width="200" height="120">
+          </a>
+          <button class="navbar-toggler ms-3 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link mx-3 fs-5" aria-current="page" href="#carouselExampleInterval"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3 fs-5" href="#about-page"><b>About</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3 fs-5" href="#Contact-page"><b>Contact</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-3 fs-5" href="#Review-page"><b>Review</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="btn mx-3 fs-5 " href="#"><b>Login</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+ 
+      <!-- carousel -->
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="first-banner.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="5000" >
+                <img src="second-banner.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="6000">
+                <img src="third-banner.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="6000">
+                <img src="fourth-banner.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="6000">
+                <img src="fivth-banner.jpeg" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>  
+
+        <!-- Category -->
+        <section id="Category">
+            <div class="container text-center my-4">
+              <h2 class="mb-5">Category</h2>
+              <div class="row gy-3">
+                <div class="col-md-3">
+                  <img src="engagement.jpg" class="img-fluid mb-2">
+                  <h4><b>ENGAGEMENT STYLE</b></h4>
+                </div>
+                <div class="col-md-3">
+                  <img src="marrige.jpg" class="img-fluid mb-2">
+                  <h4><B>MARRIAGE LOOK</B></h4>
+                </div>
+                <div class="col-md-3">
+                  <img src="baby shower.jpg" class="img-fluid mb-2">
+                  <h4><b>BABY SHOWER STYLE</b></h4>
+                </div>
+                <div class="col-md-3">
+                  <img src="halthi.jpg" class="img-fluid mb-2">
+                  <h4><b>HALTHI LOOK</b></h4>
+                </div>
+              </div>
+            </div>
+
+        </section>
+        
+        <!-- About page -->
+        <section id="about-page" class="py-4">
+            <div class="container my-4">
+                <div class="row">
+                    <div class="col-lg-6 my-4 ">
+                      <img src="marrige.jpg" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 text-contect text-center ">
+                      <h3>About Us</h3>
+                      <p class=" mb-2">A makeup artist is skilled in the application of cosmetics to enhance the appearance of individuals, whether it be for personal or professional purposes. Makeup artists work in various settings, such as salons, spas, theaters, fashion shows, photography studios, and film or television sets.
+                      <a href="#" class="btn about-btn">Read More</a>
+
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+        <!-- Review page -->
+        <section id="Review-page" class="py-5">
+          <h4 class="text-center ">Our customers Love</h4>
+          <h2 class="text-center mb-3 ">What we do</h2>
+          <div class="container">
+            <div class="row gy-3">
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <img src="Review1.jpg" class="card-img-top">
+                    <div class="card-body">
+                      <h6>Great Look<br>⭐⭐⭐⭐⭐</h6>
+                      <p class="card-text">"Your makeup artistry left me speechless. Thank you for your incredible talent.” “Thank you for making me look and feel like a million bucks.” “Your skillful hands turned me into a complete knockout. Thank you!”</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <img src="Review2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Tamannaah Bhatia</h5>
+                      <h6>Excellent<br>⭐⭐⭐⭐</h6>
+                      <p class="card-text">I still can't believe that you did such excellent makeup in such a short time. You make me totally like a whole new person, never felt so amazing before. Just love your work, you make me look my best self, that's what I like the most. The makeup you did was truly incredible, I got a lot of compliments that day, thanks.</p>
+                      
+                    </div>
+                   
+                  </div>
+                </div>
+            </div>
+          </div>
+          
+        </section>
+
+        <!-- Contact-page -->
+
+        <section id="Contact-page">
+          <div class="container my-5 shadow">
+            <div class="row">
+
+              <div class="col-md-4 bg-primary p-5 text-white">
+                <h2>Let's get in touch</h2>
+                <p>We're open for any suggestion or just to have a chat</p>
+                <div class="d-flex mt-2">
+                  <i class="fa-solid fa-location-dot mt-2"></i>
+                  <p class="me-3"><span>Address</span><br>1266, Muthampalayam Housing Unit Phase-1, Erode-638009</p>
+                </div>
+                <div class="d-flex mt-2">
+                  <i class="fa-solid fa-phone mt-2"></i>
+                  <p class="me-3"><span>Phone no</span><br>+91 1234567890</p>
+                </div>
+                <div class="d-flex mt-2">
+                  <i class="fa-regular fa-envelope mt-2"></i>
+                  <p class="me-3"><span>Email</span><br>anjalib082001@gmail.com</p>
+                </div>
+                <div class="d-flex mt-4 grpfont">
+                  <a href="https://www.facebook.com/" class="nav-link"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://twitter.com/" class="nav-link"><i class="fa-brands fa-x-twitter"></i></a>
+                  <a href="https://www.youtube.com/" class="nav-link"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="https://www.instagram.com/" class="nav-link"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+
+              <div class="col-md-8 p-5">
+                <h2>Get in touch</h2>
+                <form class="row g-3 contactForm mt-3">
+                  <div class="col-md-6">
+                    <label for="inputfname" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputfirstname">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputlname" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputlastname">
+                  </div>
+                  <div class="col-12">
+                    <label for="inputsubject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="inputAddress" >
+                  </div>
+                  <div class="col-12">
+                    <label for="inputemail" class="form-label">Email Id</label>
+                    <input type="email" class="form-control" id="inputemail" >
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="inputcontactnumber" class="form-label">Contact Number</label>
+                    <input type="number" class="form-control" id="inputcontactNumber">
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary mt-3">Sign in</button>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </div>
+
+
+        </section>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+    </body>
+</html>
